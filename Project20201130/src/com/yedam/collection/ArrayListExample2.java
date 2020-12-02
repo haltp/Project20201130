@@ -13,7 +13,15 @@ public class ArrayListExample2 {
 		System.out.println("Hello".length());
 		System.out.println("=====================================");
 		
-		List<String> list = new ArrayList<>();
+		List<String> olist = new ArrayList();
+		olist.add("Hello");
+		
+		for(Object str: olist) {
+			String s = (String) str;
+			System.out.println(s);
+		}
+		System.out.println("=====================================");
+		List<String> list = new ArrayList<String>();
 		list.add(new String("Hello"));
 		list.add(new String("World"));
 		list.add("Welcome");
