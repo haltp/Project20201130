@@ -1,4 +1,4 @@
-package com.yedam.ingerface;
+package com.yedam.interfaces;
 
 interface Runnable {
 	public void run();

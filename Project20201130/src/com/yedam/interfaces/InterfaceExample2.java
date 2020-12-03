@@ -1,4 +1,4 @@
-package com.yedam.ingerface;
+package com.yedam.interfaces;
 
 //함수적 인터페이스(Functional Interface)
 interface Cal {
